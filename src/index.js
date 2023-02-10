@@ -191,3 +191,6 @@ module.exports = function toReadable(number) {
       return `${textNumberHundred[0]} forty-six`;
      case 147:
       return `${textNumberHundred[0]} forty-seven`;
+              }
+  
+}
