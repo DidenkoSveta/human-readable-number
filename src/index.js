@@ -32,27 +32,3 @@ const returnDecimal = (decimal) => {
     const numbers = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred'];
     return numbers[decimal - 2];
 }
-
-module.exports = function toReadable(number) {
-    const stringNumber = `${number}`;
-    const length = stringNumber.length;
-
-    if (number === 0) return 'zero';
-
-    let result = '';
-    const numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred'];
-
-    for (let i = 0; i < length; i++) {
-        if (i === 0 && +stringNumber[i] !== 0) {
-            result += numbers[+stringNumber[i] - 1] + ' hundred';
-        }
-        if (i === 1 && +stringNumber[i] !== 0) {
-            result += ' ' + numbers[+stringNumber[i] + 17];
-        }
-        if (i === 2 && +stringNumber[i] !== 0) {
-            result += ' ' + numbers[+stringNumber[i] - 1];
-        }
-    }
-
-    return result || 'zero';
-}
