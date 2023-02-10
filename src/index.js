@@ -717,6 +717,414 @@ case 140:
       return `${textNumberHundred[0]} and ${textNumberTen[0]}-${textNumber[9]}`;
      case 410:
       return `${textNumberHundred[1]} and ${textNumberTen[1]}`;
+               case 411:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[1]}`;
+     case 412:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[2]}`;
+     case 413:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[3]}`;
+     case 414:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[4]}`;
+     case 415:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[5]}`;
+     case 416:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[6]}`;
+     case 417:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[7]}`;
+     case 418:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[8]}`;
+     case 419:
+      return `${textNumberHundred[1]} and ${textNumberTen[1]}-${textNumber[9]}`;
+     case 421:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[1]}`;
+     case 422:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[2]}`;
+     case 423:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[3]}`;
+     case 424:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[4]}`;
+     case 425:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[5]}`;
+     case 426:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[6]}`;
+     case 427:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[7]}`;
+     case 428:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[8]}`;
+     case 429:
+      return `${textNumberHundred[1]} and ${textNumberTen[2]}-${textNumber[9]}`;
+     case 431:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[1]}`;
+     case 432:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[2]}`;
+     case 433:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[3]}`;
+     case 434:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[4]}`;
+     case 435:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[5]}`;
+     case 436:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[6]}`;
+     case 437:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[7]}`;
+     case 438:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[8]}`;
+     case 439:
+      return `${textNumberHundred[1]} and ${textNumberTen[3]}-${textNumber[9]}`;
+     case 441:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[1]}`;
+     case 442:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[2]}`;
+     case 443:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[3]}`;
+     case 444:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[4]}`;
+     case 445:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[5]}`;
+     case 446:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[6]}`;
+     case 447:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[7]}`;
+     case 448:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[8]}`;
+     case 449:
+      return `${textNumberHundred[1]} and ${textNumberTen[4]}-${textNumber[9]}`;
+     case 451:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[1]}`;
+     case 452:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[2]}`;
+     case 453:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[3]}`;
+     case 454:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[4]}`;
+     case 455:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[5]}`;
+     case 456:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[6]}`;
+     case 457:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[7]}`;
+     case 458:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[8]}`;
+     case 459:
+      return `${textNumberHundred[1]} and ${textNumberTen[5]}-${textNumber[9]}`;
+     case 461:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[1]}`;
+     case 462:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[2]}`;
+     case 463:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[3]}`;
+     case 464:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[4]}`;
+     case 465:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[5]}`;
+     case 466:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[6]}`;
+     case 467:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[7]}`;
+     case 468:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[8]}`;
+     case 469:
+      return `${textNumberHundred[1]} and ${textNumberTen[6]}-${textNumber[9]}`;
+     case 471:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[1]}`;
+     case 472:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[2]}`;
+     case 473:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[3]}`;
+     case 474:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[4]}`;
+     case 475:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[5]}`;
+     case 476:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[6]}`;
+     case 477:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[7]}`;
+     case 478:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[8]}`;
+     case 479:
+      return `${textNumberHundred[1]} and ${textNumberTen[7]}-${textNumber[9]}`;
+     case 481:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[1]}`;
+     case 482:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[2]}`;
+     case 483:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[3]}`;
+     case 484:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[4]}`;
+     case 485:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[5]}`;
+     case 486:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[6]}`;
+     case 487:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[7]}`;
+     case 488:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[8]}`;
+     case 489:
+      return `${textNumberHundred[1]} and ${textNumberTen[8]}-${textNumber[9]}`;
+     case 491:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[1]}`;
+     case 492:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[2]}`;
+     case 493:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[3]}`;
+     case 494:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[4]}`;
+     case 495:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[5]}`;
+     case 496:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[6]}`;
+     case 497:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[7]}`;
+     case 498:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[8]}`;
+     case 499:
+      return `${textNumberHundred[1]} and ${textNumberTen[9]}-${textNumber[9]}`;
+     case 511:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[1]}`;
+     case 512:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[2]}`;
+     case 513:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[3]}`;
+     case 514:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[4]}`;
+     case 515:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[5]}`;
+     case 516:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[6]}`;
+     case 517:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[7]}`;
+     case 518:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[8]}`;
+     case 519:
+      return `${textNumberHundred[2]} and ${textNumberTen[1]}-${textNumber[9]}`;
+     case 521:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[1]}`;
+     case 522:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[2]}`;
+     case 523:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[3]}`;
+     case 524:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[4]}`;
+     case 525:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[5]}`;
+     case 526:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[6]}`;
+     case 527:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[7]}`;
+     case 528:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[8]}`;
+     case 529:
+      return `${textNumberHundred[2]} and ${textNumberTen[2]}-${textNumber[9]}`;
+     case 531:
+                return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[1]}`;
+     case 532:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[2]}`;
+     case 533:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[3]}`;
+     case 534:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[4]}`;
+     case 535:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[5]}`;
+     case 536:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[6]}`;
+     case 537:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[7]}`;
+     case 538:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[8]}`;
+     case 539:
+      return `${textNumberHundred[2]} and ${textNumberTen[3]}-${textNumber[9]}`;
+     case 540:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}`;
+     case 541:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[1]}`;
+     case 542:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[2]}`;
+     case 543:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[3]}`;
+     case 544:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[4]}`;
+     case 545:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[5]}`;
+     case 546:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[6]}`;
+     case 547:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[7]}`;
+     case 548:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[8]}`;
+     case 549:
+      return `${textNumberHundred[2]} and ${textNumberTen[4]}-${textNumber[9]}`;
+     case 550:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}`;
+     case 551:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[1]}`;
+     case 552:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[2]}`;
+     case 553:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[3]}`;
+     case 554:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[4]}`;
+     case 555:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[5]}`;
+     case 556:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[6]}`;
+     case 557:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[7]}`;
+     case 558:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[8]}`;
+     case 559:
+      return `${textNumberHundred[2]} and ${textNumberTen[5]}-${textNumber[9]}`;
+     case 560:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}`;
+     case 561:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[1]}`;
+     case 562:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[2]}`;
+     case 563:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[3]}`;
+     case 564:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[4]}`;
+     case 565:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[5]}`;
+     case 566:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[6]}`;
+     case 567:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[7]}`;
+     case 568:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[8]}`;
+     case 569:
+      return `${textNumberHundred[2]} and ${textNumberTen[6]}-${textNumber[9]}`;
+     case 570:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}`;
+     case 571:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[1]}`;
+     case 572:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[2]}`;
+     case 573:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[3]}`;
+     case 574:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[4]}`;
+     case 575:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[5]}`;
+     case 576:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[6]}`;
+     case 577:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[7]}`;
+     case 578:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[8]}`;
+     case 579:
+      return `${textNumberHundred[2]} and ${textNumberTen[7]}-${textNumber[9]}`;
+     case 580:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}`;
+     case 581:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[1]}`;
+     case 582:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[2]}`;
+     case 583:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[3]}`;
+     case 584:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[4]}`;
+     case 585:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[5]}`;
+     case 586:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[6]}`;
+     case 587:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[7]}`;
+     case 588:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[8]}`;
+     case 589:
+      return `${textNumberHundred[2]} and ${textNumberTen[8]}-${textNumber[9]}`;
+     case 590:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}`;
+     case 591:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[1]}`;
+     case 592:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[2]}`;
+     case 593:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[3]}`;
+     case 594:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[4]}`;
+     case 595:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[5]}`;
+     case 596:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[6]}`;
+     case 597:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[7]}`;
+     case 598:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[8]}`;
+     case 599:
+      return `${textNumberHundred[2]} and ${textNumberTen[9]}-${textNumber[9]}`;
+     case 600:
+      return `${textNumberHundred[3]}`;
+     case 601:
+      return `${textNumberHundred[3]}-${textNumber[1]}`;
+     case 602:
+      return `${textNumberHundred[3]}-${textNumber[2]}`;
+     case 603:
+      return `${textNumberHundred[3]}-${textNumber[3]}`;
+     case 604:
+      return `${textNumberHundred[3]}-${textNumber[4]}`;
+     case 605:
+      return `${textNumberHundred[3]}-${textNumber[5]}`;
+     case 606:
+      return `${textNumberHundred[3]}-${textNumber[6]}`;
+     case 607:
+      return `${textNumberHundred[3]}-${textNumber[7]}`;
+     case 608:
+      return `${textNumberHundred[3]}-${textNumber[8]}`;
+     case 609:
+      return `${textNumberHundred[3]}-${textNumber[9]}`;
+     case 610:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}`;
+     case 611:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[1]}`;
+     case 612:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[2]}`;
+     case 613:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[3]}`;
+     case 614:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[4]}`;
+     case 615:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[5]}`;
+     case 616:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[6]}`;
+     case 617:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[7]}`;
+     case 618:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[8]}`;
+     case 619:
+      return `${textNumberHundred[3]} and ${textNumberTen[1]}-${textNumber[9]}`;
+     case 620:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}`;
+     case 621:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[1]}`;
+     case 622:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[2]}`;
+     case 623:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[3]}`;
+     case 624:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[4]}`;
+     case 625:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[5]}`;
+     case 626:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[6]}`;
+     case 627:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[7]}`;
+     case 628:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[8]}`;
+     case 629:
+      return `${textNumberHundred[3]} and ${textNumberTen[2]}-${textNumber[9]}`;
+     case 630:
+      return `${textNumberHundred[3]} and ${textNumberTen[3]}`;
+     case 631:
+      return `${textNumberHundred[3]} and ${textNumberTen[3]}-${textNumber[1]}`;
+     case 632:
+      return `${textNumberHundred[3]} and ${textNumberTen[3]}-${textNumber[2]}`;
+     case 633:
+      return `${textNumberHundred[3]} and ${textNumberTen[3]}-${textNumber[3]}`;
+     case 634:
+      return `${textNumberHundred[3]} and ${textNumberTen[3]}-${textNumber[4]}`;
+     case 635:
+      return `${textNumberHundred[3]} and ${textNumberTen[3]}-${textNumber[5]}`;
               }
   
 }
