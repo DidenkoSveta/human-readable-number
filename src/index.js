@@ -1,67 +1,107 @@
-const numbersToWords = {
-  0: 'zero',
-  1: 'one',
-  2: 'two',
-  3: 'three',
-  4: 'four',
-  5: 'five',
-  6: 'six',
-  7: 'seven',
-  8: 'eight',
-  9: 'nine',
-  10: 'ten',
-  11: 'eleven',
-  12: 'twelve',
-  13: 'thirteen',
-  14: 'fourteen',
-  15: 'fifteen',
-  16: 'sixteen',
-  17: 'seventeen',
-  18: 'eighteen',
-  19: 'nineteen',
-  20: 'twenty',
-  30: 'thirty',
-  40: 'forty',
-  50: 'fifty',
-  60: 'sixty',
-  70: 'seventy',
-  80: 'eighty',
-  90: 'ninety',
-};
-
-const numbersToPlace = {
-  10: 'ten',
-  100: 'hundred',
-  1000: 'thousand',
-  1000000: 'million',
-  1000000000: 'billion',
-  1000000000000: 'trillion',
-  1000000000000000: 'quadrillion',
-  1000000000000000000: 'quintillion',
-};
-
 function toReadable(number) {
-  if (numbersToWords[number]) {
-    return numbersToWords[number];
+  let readable;
+  switch (number) {
+    case 0:
+      readable = 'zero';
+      break;
+    case 1:
+      readable = 'one';
+      break;
+    case 2:
+      readable = 'two';
+      break;
+    case 3:
+      readable = 'three';
+      break;
+    case 4:
+      readable = 'four';
+      break;
+    case 5:
+      readable = 'five';
+      break;
+    case 6:
+      readable = 'six';
+      break;
+    case 7:
+      readable = 'seven';
+      break;
+    case 8:
+      readable = 'eight';
+      break;
+    case 9:
+      readable = 'nine';
+      break;
+    case 10:
+      readable = 'ten';
+      break;
+    case 11:
+      readable = 'eleven';
+      break;
+    case 12:
+      readable = 'twelve';
+      break;
+    case 13:
+      readable = 'thirteen';
+      break;
+    case 14:
+      readable = 'fourteen';
+      break;
+    case 15:
+      readable = 'fifteen';
+      break;
+    case 16:
+      readable = 'sixteen';
+      break;
+    case 17:
+      readable = 'seventeen';
+      break;
+    case 18:
+      readable = 'eighteen';
+      break;
+    case 19:
+      readable = 'nineteen';
+      break;
+    case 20:
+      readable = 'twenty';
+      break;
+    case 30:
+      readable = 'thirty';
+      break;
+    case 40:
+      readable = 'forty';
+      break;
+    case 50:
+      readable = 'fifty';
+      break;
+    case 60:
+      readable = 'sixty';
+      break;
+    case 70:
+      readable = 'seventy';
+      break;
+    case 80:
+      readable = 'eighty';
+      break;
+    case 90:
+      readable = 'ninety';
+      break;
+    default:
+      if (number < 100) {
+        readable = toReadable(number - number % 10) + '-' + toReadable(number % 10);
+      } else if (number < 1000) {
+        readable = toReadable(number - number % 100) + ' ' + toReadable(number % 100);
+      } else if (number < 1000000) {
+        readable = toReadable(number - number % 1000) + ' ' + toReadable(number % 1000);
+      } else if (number < 1000000000) {
+        readable = toReadable(number - number % 1000000) + ' ' + toReadable(number % 1000000);
+      } else if (number < 1000000000000) {
+        readable = toReadable(number - number % 1000000000) + ' ' + toReadable(number % 1000000000);
+      } else if (number < 1000000000000000) {
+        readable = toReadable(number - number % 1000000000000) + ' ' + toReadable(number % 1000000000000);
+      } else if (number < 1000000000000000000) {
+        readable = toReadable(number - number % 1000000000000000) + ' ' + toReadable(number % 1000000000000000);
+      }
   }
-
-  let place = 10;
-  while (place * 10 <= number) {
-    place *= 10;
-  }
-
-  const quotient = Math.floor(number / place);
-  const remainder = number % place;
-
-  const quotientWord = toReadable(quotient);
-  const remainderWord = toReadable(remainder);
-  const placeWord = numbersToPlace[place];
-
-  if (remainder === 0) {
-    return `${quotientWord} ${placeWord}`;
-  }
-
-  return `${quotientWord} ${placeWord} ${remainderWord}`;
+  return readable;
 }
-
 module.exports = toReadable;
